@@ -12,12 +12,28 @@
 }
 .name {
   display: flex;
-  width: 100%;
-  justify-content: center;
+  margin: 0px;
 }
 .contacts {
   display: flex;
   flex-direction: column;
   width: 100%;
   line-height: 26px;
+}
+.picture {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.img {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-image: url(/img/photo_2020-08-12\ 18.24.29.jpeg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
 }
